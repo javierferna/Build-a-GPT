@@ -10,19 +10,13 @@ This  repository provides an educational implementation of a GPT-style autoregre
 * ⚡ **KV Caching:** Efficient text generation using key-value caching to reduce redundant computations.
 * 📖 **Custom Training Data:** Easily train your GPT model on custom input text (`input.txt` provided by default from Jules Verne's classic).
 
----
-
-## Scripts Included:
+Scripts Included:
 
 `my_gpt.py` - Implementation of the GPT Transformer architecture, including training and evaluation.  
 `generate.py` - Script to generate new text based on trained model weights. Supports temperature and top-k adjustments.  
 `input.txt` - Default training corpus sourced from *"Twenty Thousand Leagues Under the Sea"* by Jules Verne.  
 
----
-
-## Usage
-
-### 🧠 Train Your GPT
+Usage Example:
 
 ```example bash
 python my_gpt.py --file_path input.txt --batch_size 32 --block_size 128 --num_epochs 4
