@@ -1,8 +1,8 @@
 # 🤖 Build-a-GPT
 
-This  repository provides an educational implementation of a GPT-style autoregressive Transformer model trained from scratch. It enables users to build, train, and generate text using custom duments. In this case, I used the classic novel *"Twenty Thousand Leagues Under the Sea"* by Jules Verne.
+This  repository provides an educational implementation of a GPT-style autoregressive Transformer model trained from scratch. It enables users to build, train, and generate text using custom documents. In this case, I used the classic novel *"Twenty Thousand Leagues Under the Sea"* by Jules Verne.
 
-**Key highlights:**
+**Key features:**
 
 * 📚 **GPT Transformer Model:** An autoregressive Transformer decoder architecture inspired by GPT.
 * 🔄 **Rotary Positional Embeddings (RoPE):** Implements SOTA positional encodings to effectively capture relative token positions.
